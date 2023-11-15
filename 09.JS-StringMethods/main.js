@@ -38,8 +38,8 @@ console.log(isPalindrome("aziza"));
 // task5
 let array = [1, 2, 3, 4, 5, 6, 7, 8];
 let length = 4;
- let newArr =[]
 function splitIntoChunk(arr, len) {
+    let newArr =[]
   for (let i = 0; i < arr.length; i+=length) {
     newArr.push(arr.slice(i,i+len))
     

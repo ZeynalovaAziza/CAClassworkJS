@@ -1,0 +1,9 @@
+li{
+    list-style: none;
+}
+button{
+ background-color: blue;
+ color: white;
+ border: none;
+ padding: 5px;
+}

@@ -336,7 +336,9 @@ function draw(data) {
 let getProducts= JSON.parse(localStorage.getItem("basket")) || [];
 
 function addToBasket(id){
-let findId=products.find(item=>item._id==id)
-getProducts.push(findId)
-localStorage.setItem("basket", JSON.stringify(getProducts));
+  let findId=products.find(item=>item._id==id)
+  localStorage.setItem("basket", JSON.stringify(getProducts));
+  getProducts.push(findId)
+
+
 }

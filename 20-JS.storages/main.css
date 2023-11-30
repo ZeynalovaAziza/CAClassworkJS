@@ -1,0 +1,14 @@
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+}
+button{
+    padding: 5px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+   width: 100px;
+}

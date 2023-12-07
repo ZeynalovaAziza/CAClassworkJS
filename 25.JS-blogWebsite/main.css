@@ -1,0 +1,16 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.header nav ul a{
+    text-decoration: none;
+}
+

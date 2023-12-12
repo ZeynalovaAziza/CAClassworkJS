@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+}
+.logo{
+    background-color: black;
+    height: 5vh;
+}
+.logo h3{
+    color: white;
+    text-align: center;
+}
+.signup{
+    background-color: aliceblue;
+    padding: 20px ;
+    margin: 40px 20px;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.username, .email, .password{
+    margin: 15px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  
+}
+.signup-btn{
+    padding: 5px 30px;
+    width: 100%;
+    border: none;
+    background-color: rgb(46, 134, 46);
+    border-radius: 5px;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page {
+  display: flex;
+justify-content: center;
+}
+.login-page a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    background-color: aliceblue;
+    padding: 20px ;
+    margin: 40px 20px;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.login input{
+    margin: 15px;
+}
+.giris-btn{
+    padding: 5px 30px;
+    width: 100%;
+    border: none;
+    background-color: rgb(46, 134, 46);
+    border-radius: 5px;
+    color: white;
+}
+.signup-page a{
+    text-decoration: none;
+    color: black;
+}
+.signup-page {
+    display: flex;
+  justify-content: center;
+}

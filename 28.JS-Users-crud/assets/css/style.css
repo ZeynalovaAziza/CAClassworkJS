@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header{
+    background-color:rgba(243, 213, 177, 0.911);
+    position: fixed;
+    width: 100%;
+ 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+header nav ul a{
+    color: black;
+}
+#banner{
+    background-image: url("../img/bg1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#users-list h2{
+text-align: center;
+padding: 20px;
+}
+
+tbody tr a{
+    background-color: rgb(43, 100, 43);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+tbody tr .delete{
+    background-color:rgb(161, 32, 32);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+tbody tr .add-fav{
+    background-color:rgb(25, 25, 189);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+tbody td img{
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+   
+  }
+  
+  td, th {
+    
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.add-user{
+ 
+    padding: 50px ;
+    margin: 40px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+  
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add h1{
+    text-align: center;
+    
+}

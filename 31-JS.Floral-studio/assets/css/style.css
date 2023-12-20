@@ -10,7 +10,11 @@
 }
 header {
   padding: 15px;
-  background-color: rgb(50, 83, 50);
+  background-color: rgba(50, 83, 50,0.6);
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+
 }
 .header {
   display: flex;
@@ -74,8 +78,19 @@ a {
 }
 #services{
     background-image: url(../image/background2.jpg);
-    height: 150vh;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    height: 120vh;
     padding: 30px;
+} 
+#services h2{
+  font-size: 45px;
+  color:rgb(50, 83, 50) ;
+}
+#services p{
+  font-size: 25px;
+  color:rgb(50, 83, 50) ;
 }
 .owl-carousel{
    padding: 50px;
@@ -89,4 +104,83 @@ a {
 .box-name{
     padding: 30px;
     background-color: white;
+}
+#pricing{
+  background-image: url(../image/background1.jpg);
+  padding-top: 40px;
+}
+.pricing .boxes .box img{
+  width: 350px;
+  height: 350px;
+}
+.pricing .boxes {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.pricing .boxes .box{
+  width: 30%;
+  position: relative;
+}
+.pricing .boxes .box h4{
+  text-align: center;
+}
+.pricing h2{
+  text-align: center;
+  font-size: 50px;
+  color:  rgb(50, 83, 50);
+}
+.pricing p,h4{
+color:  rgb(50, 83, 50);
+}
+.pricing .boxes .box .fa-heart{
+  font-size: 20px;
+  color: brown;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#events{
+  background-image: url(../image/background1.jpg);
+  padding-top: 50px;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+ 
+}
+.cards .card{
+  padding: 70px ;
+  border: 1px solid rgb(50, 83, 50);
+  background-color:antiquewhite;
+}
+.cards .card p,span,h4{
+  text-align: center;
+  color:rgb(50, 83, 50);
+}
+.cards .card span{
+  font-size: 30px;
+}
+.cards .card span,h4{
+  line-height: 60px;
+}
+.cards .card button{
+  padding: 8px;
+}
+.events p{
+  color:rgb(50, 83, 50);
+
+}
+.events h2{
+  text-align: center;
+  padding-bottom: 50px;
+  color:rgb(50, 83, 50)
+}
+.cards .card button{
+  border: none;
+ background-color:rgb(129, 156, 129);
+ color: rgb(50, 83, 50);
 }

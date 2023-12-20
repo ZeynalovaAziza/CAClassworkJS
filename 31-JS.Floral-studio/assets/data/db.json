@@ -1,0 +1,39 @@
+{
+    "products":[
+        {"id":1,
+        "title":"flower",
+        "price":"$20",
+        "productphoto":"./assets/image/b4.jpg"
+    },
+    {
+        "id":2,
+        "title":"flower",
+        "price":"$20",
+        "productphoto":"./assets/image/b2.jpg"
+    },
+    {
+        "id":3,
+        "title":"flower",
+        "price":"$20",
+        "productphoto":"./assets/image/b3.jpg"
+    },
+    {
+        "id":4,
+        "title":"flower",
+        "price":"$20",
+        "productphoto":"./assets/image/b4.jpg"
+    },
+    {
+        "id":5,
+        "title":"flower",
+        "price":"$20",
+        "productphoto":"./assets/image/b2.jpg"
+    },
+    {
+        "id":6,
+        "title":"flower",
+        "price":"$20",
+        "productphoto":"./assets/image/b3.jpg"
+    }
+]
+}

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "photo": "./assets/image/img2.PNG",
+      "title": "Top Data Centers",
+      "description": "High Quality Hardware Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+    },
+    {
+      "id": "3",
+      "photo": "./assets/image/img3.PNG",
+      "title": "Outstanding Speed",
+      "description": "High Quality Hardware Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+    },
+    {
+      "id": "4",
+      "photo": "./assets/image/img4.PNG",
+      "title": "Amazing Uptime",
+      "description": "High Quality Hardware Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+    },
+    {
+      "id": "5",
+      "photo": "./assets/image/img5.PNG",
+      "title": "Best Support",
+      "description": "High Quality Hardware Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+    },
+    {
+      "id": "6",
+      "photo": "./assets/image/img6.PNG",
+      "title": "Client Reviews",
+      "description": "High Quality Hardware Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
+    }
+  ]
+}

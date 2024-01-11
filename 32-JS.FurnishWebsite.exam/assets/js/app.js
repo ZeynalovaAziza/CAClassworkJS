@@ -1,19 +1,20 @@
-let boxes = document.querySelector(".boxes")
-let search=document.querySelector(".search")
-const BASE_URL ="http://localhost:8080"
+let boxes = document.querySelector(".boxes");
+let search = document.querySelector(".search");
+const BASE_URL = "http://localhost:8080";
+let arr=[];
 
-async function getData(endpoint){
-    let response =await axios(`${BASE_URL}/${endpoint}`)
-    drawBox(response.data);
+async function getData(endpoint) {
+  let response = await axios(`${BASE_URL}/${endpoint}`);
+  arr=response.data;
+  drawBox(response.data);
 }
-getData("furniture")
-
+getData("furniture");
 
 function drawBox(data) {
-    console.log(data);
-    boxes.innerHTML = "";
-    data.forEach((element) => {
-      boxes.innerHTML += `
+  console.log(data);
+  boxes.innerHTML = "";
+  data.forEach((element) => {
+    boxes.innerHTML += `
       
       <div class="box">
       <img src="${element.photo}" alt="" />
@@ -23,27 +24,26 @@ function drawBox(data) {
     </div>
       
       `;
-    });
-  }
+  });
+}
 
-  function deleteCustomer(id, btn) {
-    if (confirm("Are u sure to delete?")) {
-      fetch(`${BASE_URL}/furniture/${id}`, {
-        method: "DELETE",
-      });
-  
+async function deleteFurniture(id, btn) {
+  try {
+    if (window.confirm("Are u sure to delete?")) {
+      await axios.delete(`${BASE_URL}/furniture/${id}`);
       btn.closest(".box").remove();
     }
+  } catch (error) {
+    console.log(error);
   }
+}
 
-  search.addEventListener("input", function (event) {
-    fetch(`${BASE_URL}/furniture${event.target.value.toLocaleLowerCase()}`)
-    .then((response)=>response.json())
-      .then((data) => {
-        drawBox(data);
-      })
-
+search.addEventListener("input", function (event) {
+  event.preventDefault();
+  let filtered = arr.filter((item) => {
+   return item.title
+      .toLocaleLowerCase()
+      .includes(event.target.value.toLocaleLowerCase());
   });
-  
-  
-  
+  drawBox(filtered);
+});

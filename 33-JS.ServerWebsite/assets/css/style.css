@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.top-header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.top-header .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.top-header .logo h2 {
+  font-size: 35px;
+}
+.top-header .contact {
+  display: flex;
+  gap: 30px;
+}
+.top-header .contact .call {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.top-header .contact .call a {
+  font-size: 30px;
+  color: black;
+}
+.top-header .contact .call-text p {
+  font-size: 15px;
+  opacity: 0.6;
+}
+.top-header .contact .call-text h4 {
+  font-size: 18px;
+}
+#bottom-header {
+  padding: 25px;
+  background-color: #343a40;
+}
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-header nav ul {
+  display: flex;
+  gap: 30px;
+}
+.bottom-header nav ul a {
+  color: rgb(173, 164, 164);
+  font-size: 18px;
+}
+.bottom-header .register-btn {
+  display: flex;
+  gap: 10px;
+}
+.bottom-header .register-btn .register {
+  background-color: transparent;
+  border: 2px solid green;
+  color: white;
+  padding: 12px 22px;
+}
+.bottom-header .register-btn .login {
+  background-color: green;
+  color: white;
+  border: 2px solid transparent;
+  padding: 12px 22px;
+}
+.choose h1{
+text-align: center;
+margin: 40px 0;
+font-size: 35px;
+}
+.choose .cards-data{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.choose .cards-data .img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.choose .card-data{
+    border: 2px solid rgb(173, 164, 164);
+    padding: 30px;
+    width: 30%;
+}
+.choose .card-data p{
+    margin-bottom: 10px;
+    color: rgb(173, 164, 164);
+}
+ .choose .icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+ }
+ .choose .search{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:rgb(173, 164, 164) ;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+ } 
+ .choose .search::placeholder{
+    color: white;
+ }
+ .choose a{
+    border: none;
+    background-color:rgb(173, 164, 164) ;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+ }
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}

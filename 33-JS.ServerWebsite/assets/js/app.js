@@ -23,8 +23,9 @@ async function getData(endpoint) {
                 <p>${element.description}</p>
                 <div class="icons">
                 <i class="fa-solid fa-trash" onclick=deleteProduct("${element.id}",this)></i>
-               
+                <a href="./details.html?id=${element.id}" class="details">Details</a>
             </div>
+
 
             </div>
         

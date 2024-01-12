@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(150, 148, 148);
+}
+.top-header h4 {
+  font-size: 20px;
+  color: rgb(105, 104, 104);
+}
+.top-header span {
+  color: #072886;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  color: #072886;
+}
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.bottom-header nav ul {
+  display: flex;
+  gap: 30px;
+}
+.bottom-header nav ul a {
+  font-size: 20px;
+  color: #072886;
+}
+.bottom-header .bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.bottom-header .free-btn button {
+  padding: 12px 35px;
+  background-color: transparent;
+  border: 2px solid #326EC2;
+  color:  #326EC2;
+  font-size: 15px;
+}
+.bottom-header .free-btn button:hover {
+  border: 2px solid transparent;
+  background-color: #326ec2;
+  color: white;
+}
+.bottom-header .bottom-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.bottom-header .call{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.bottom-header .call img{
+    width: 32px;
+}
+.bottom-header .call-text p{
+    font-size: 18px;
+    color: rgb(105, 104, 104);
+}
+.bottom-header .call-text h4{
+    font-size: 18px;
+    color: #072886;
+}
+#hero{
+    background-image: url(../image/h1_hero1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.hero{
+   position: absolute;
+   top: 150px;
+   left: 120px;
+}
+.hero h1{
+    font-size: 60px;
+    max-width: 450px;
+    color: white;
+    margin-bottom: 35px;
+}
+.hero p{
+    font-size: 25px;
+    max-width: 500px;
+    color: white;
+    margin-bottom: 35px;
+}
+.hero button{
+    padding: 18px 40px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+}
+.study h5{
+    text-align: center;
+    font-size: 20px;
+    color:  #326ec2;
+    margin-bottom: 20px;
+}
+#study{
+    padding: 60px 0;
+}
+.study h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #072886;
+}
+.study .study-cards img{
+    width: 350px;
+}
+
+.study .study-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.study .study-cards h4{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #072886;
+}
+.study .study-cards p{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+.study .study-cards a{
+    color: #072886;
+    border: 2px solid #072886;
+    padding: 10px 20px;
+}
+.study .study-cards i{
+    color: #072886;
+}
+.study input{
+     padding: 10px 30px;
+     border-radius: 20px;
+     border: 2px solid #072886;
+}
+.study .add{
+    color: #072886;
+    border: 2px solid #072886;
+    border-radius: 20px;
+    padding: 8px 20px;
+   
+}
+#details-section{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#details-section h4{
+    font-size: 25px;
+    color: #072886;
+    margin-top: 20px;
+}
+#details-section p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+#details-section h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #072886;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+form h1{
+    font-size: 30px;
+    color: #072886;
+}
+form input{
+    padding: 10px 20px;
+    border: 2px solid  #072886;
+}
+form button{
+    padding: 10px 25px;
+    background-color: #326EC2;
+    border: none;
+    color: white;
+    border: 1px solid  #072886;
+}
+#banner{
+    padding: 40px 0;
+    height: 80vh;
+    margin: 0px 0;
+}
+.banner p{
+    text-align: center;
+    font-size: 20px;
+    color:  #326EC2;
+    margin-bottom: 20px;
+}
+.banner h2{
+    text-align: center;
+    font-size: 40px;
+    color: #072886;
+  
+}
+.banner .boxes{
+    padding: 80px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.banner .boxes .box{
+   background-color: aliceblue;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.banner .boxes .box p{
+    font-size: 22px;
+    text-align: center;
+    color: #072886;
+   
+}

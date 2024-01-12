@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "photo": "./assets/image/blog4.jpg",
+      "id": "1",
+      "title": "Complexities of modern markets",
+      "description": "UniCode"
+    },
+    {
+      "photo": "./assets/image/blog5.jpg",
+      "id": "2",
+      "title": "Backup and recovery",
+      "description": "UniCode"
+    },
+    {
+      "photo": "./assets/image/blog6.jpg",
+      "id": "3",
+      "title": "Cyber security",
+      "description": "UniCode"
+    }
+  ]
+}

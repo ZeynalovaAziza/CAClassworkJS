@@ -1,6 +1,6 @@
 const BASE_URL = "http://localhost:8080";
-const form = document.querySelector("form");
-const allInputs = document.querySelectorAll("input");
+let allInputs = document.querySelectorAll("input");
+let form = document.querySelector("form");
 
 form.addEventListener("submit", async function (event) {
   event.preventDefault();

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "photo": "./assets/image/model_2_bg.jpg",
+      "id": "2",
+      "title": " Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "photo": "./assets/image/model_3_bg.jpg",
+      "id": "3",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "photo": "./assets/image/model_4_bg.jpg",
+      "id": "4",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "photo": "./assets/image/model_5_bg.jpg",
+      "id": "5",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "photo": "./assets/image/product_1_bg.jpg",
+      "id": "6",
+      "title": "Shoose",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    }
+  ]
+}

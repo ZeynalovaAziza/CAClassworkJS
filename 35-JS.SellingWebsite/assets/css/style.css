@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  padding: 30px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+}
+header nav ul a {
+  color: black;
+}
+#hero {
+  background-image: url(../image/hero_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  position: relative;
+}
+.hero {
+  position: absolute;
+  top: 250px;
+}
+.hero h1 {
+  font-size: 80px;
+  color: white;
+}
+.hero p {
+  font-size: 25px;
+  color: white;
+  max-width: 700px;
+  margin-top: 20px;
+}
+.shop-btns {
+  margin-top: 40px;
+}
+.now {
+  border: 2px solid;
+  background-color: transparent;
+  color: white;
+  padding: 10px 25px;
+}
+.member {
+  background-color: white;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+}
+.products h5 {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+.products h2 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products {
+  padding: 50px 0;
+}
+.products .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.products .cards .card {
+  width: 30%;
+}
+.products .cards .card img {
+  width: 350px;
+}
+.products .cards .card h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.products .cards .card p {
+  font-size: 20px;
+  text-align: center;
+}
+.products .cards .card .cart{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.products .cards .card .cart button{
+  border: 2px solid black;
+  color: black;
+  padding: 7px 20px;
+  background-color: transparent;
+}
+.products .add-div a {
+  border: 2px solid black;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.products .cards .card .cart a{
+  border: 2px solid black;
+  color: black;
+  padding: 7px 20px;
+}
+.products .add-div {
+  margin: 40px;
+}
+.star-heart {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+.star-heart .fa-star {
+  color: rgb(255, 187, 0);
+}
+.star-heart .fa-heart {
+  color: rgba(140, 33, 33, 0.735);
+}
+.add {
+  margin-top: 50px;
+}
+table {
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input {
+  margin: 20px;
+  padding: 5px;
+}
+
+#about {
+  height: 80vh;
+  padding: 30px 0;
+}
+.about {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.left-about {
+  position: relative;
+}
+.about .image img {
+  width: 650px;
+}
+
+.about .image-content {
+  background-color: #46ddb0;
+  padding: 20px;
+  width: 50%;
+  position: absolute;
+  bottom: -10px;
+  left: 350px;
+}
+.about .image-content h3 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.about .image-content p {
+  color: white;
+  font-size: 20px;
+}
+.about .right-about h5 {
+  font-size: 15px;
+  color: gray;
+}
+.about .right-about h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+.about .right-about p {
+  font-size: 18px;
+  max-width: 250px;
+  margin-bottom: 20px;
+  color: gray;
+}
+.about .right-about button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-members .member img {
+  width: 100%;
+}
+.team-members .member h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+.team-members .member h5 {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  margin: 15px 0;
+}
+.team-members .member p {
+  text-align: center;
+  color: gray;
+}
+.team-members .member .icons i {
+  background-color: gray;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+}
+.team-members .member .icons {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.team p {
+  text-align: center;
+  color: gray;
+}
+.team h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+#add table img{
+  width: 15%;
+}
+#add table .delete{
+  border: 2px solid black;
+  color: black;
+  padding: 7px 20px;
+  background-color: transparent;
+}
+#add{
+  padding: 50px 0;
+}
+#add form{
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  padding: 50px;
+}
+#add form button{
+  border: 2px solid black;
+  color: white;
+  padding: 7px 20px;
+  background-color: black;
+}
+footer{
+  padding: 60px 0;
+  height: 20vh;
+}
+footer p{
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.5;
+}
+#details-section{
+  height: 60vh;
+}
+
+#details-section .card img{
+ width: 25%;
+}
+#details-section h2{
+text-align: center;
+}
+.details-section{
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

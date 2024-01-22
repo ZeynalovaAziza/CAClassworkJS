@@ -1,6 +1,13 @@
 {
   "meals": [
     {
+      "id": "1",
+      "photo": "./assets/image/dish-7.jpg",
+      "name": "Fruit Vanilla Ice Cream",
+      "description": "Meat, Potatoes, Rice, Tomatoe",
+      "price": "$29"
+    },
+    {
       "id": "2",
       "photo": "./assets/image/dish-4.jpg",
       "name": "Fruit Vanilla Ice Cream",
@@ -30,8 +37,8 @@
     },
     {
       "id": "6",
-      "photo": "./assets/image/dish-8.jpg",
-      "name": "Savory Watercress Chinese",
+      "photo": "./assets/image/dish-5.jpg",
+      "name": "Mango Chili Chutney",
       "description": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29"
     }

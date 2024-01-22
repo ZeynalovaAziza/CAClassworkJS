@@ -179,6 +179,10 @@ table .delete{
     padding: 7px 15px;
     color: white;
 }
+.form .add-meal{
+  display: flex;
+  justify-content: center;
+}
 .menu a{
     color: black;
     text-decoration: none;

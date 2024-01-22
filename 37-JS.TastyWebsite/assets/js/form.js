@@ -1,12 +1,12 @@
 const BASE_URL = "http://localhost:8080";
 let tbody = document.querySelector("tbody");
-let form=document.querySelector("form")
-let allInputs=document.querySelectorAll("input")
-let search=document.querySelector(".search")
-let arr=[]
+let form = document.querySelector("form");
+let allInputs = document.querySelectorAll("input");
+let search = document.querySelector(".search");
+let arr = [];
 async function getData(endpoint) {
   let response = await axios(`${BASE_URL}/${endpoint}`);
-  arr=response.data
+  arr = response.data;
   drawTable(response.data);
 }
 
@@ -41,34 +41,33 @@ async function deleteMeal(id, btn) {
 }
 
 search.addEventListener("input", function (event) {
-    event.preventDefault();
-    let filtered = arr.filter((item) => {
-      return item.name
-        .toLocaleLowerCase()
-        .includes(event.target.value.toLocaleLowerCase());
-    });
-    drawTable(filtered);
+  event.preventDefault();
+  let filtered = arr.filter((item) => {
+    return item.name
+      .toLocaleLowerCase()
+      .includes(event.target.value.toLocaleLowerCase());
   });
-  
-  
-  form.addEventListener("submit", async function (event) {
-      event.preventDefault();
-      try {
-        if (allInputs[0].value.trim() && allInputs[1].value.trim() && allInputs[2].value.trim()) {
-          let meal = {
-           name: allInputs[0].value,
-            description: allInputs[1].value,
-            price: allInputs[2].value
-          };
-          await axios.post(`${BASE_URL}/meals`, meal);
-          
-        } else {
-          window.alert("??");
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    });
+  drawTable(filtered);
+});
 
-    
-    
+form.addEventListener("submit", async function (event) {
+  event.preventDefault();
+  try {
+    if (
+      allInputs[0].value.trim() &&
+      allInputs[1].value.trim() &&
+      allInputs[2].value.trim()
+    ) {
+      let meal = {
+        name: allInputs[0].value,
+        description: allInputs[1].value,
+        price: allInputs[2].value,
+      };
+      await axios.post(`${BASE_URL}/meals`, meal);
+    } else {
+      window.alert("??");
+    }
+  } catch (error) {
+    console.log(error);
+  }
+});

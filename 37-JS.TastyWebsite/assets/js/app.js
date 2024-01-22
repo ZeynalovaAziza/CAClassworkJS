@@ -7,6 +7,8 @@ async function getData(endpoint) {
 }
 
 getData("meals");
+
+
 function drawCard(data) {
   cards.innerHTML = "";
   data.forEach((element) => {
